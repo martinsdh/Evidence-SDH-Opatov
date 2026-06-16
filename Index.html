@@ -4,12 +4,61 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Evidence SDH Opatov</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>🚒 Evidence SDH Opatov</h1>
+<header>
+🚒 Evidence SDH Opatov
+</header>
 
-<p>Aplikace se právě vytváří.</p>
+<div class="container">
+
+<div class="card">
+<h2>Přihlášení</h2>
+
+<input type="email" id="email" placeholder="E-mail">
+
+<input type="password" id="password" placeholder="Heslo">
+
+<button id="loginBtn">
+Přihlásit
+</button>
+</div>
+
+<div class="card">
+<h2>Dashboard</h2>
+
+<p>Počet členů: <span id="memberCount">0</span></p>
+
+<p>Počet akcí: <span id="eventCount">0</span></p>
+
+<p>Celkem hodin: <span id="totalHours">0</span></p>
+
+</div>
+
+<div class="card">
+<h2>Členové</h2>
+
+<input type="text" id="memberName" placeholder="Jméno a příjmení">
+
+<select id="memberRole">
+<option>Člen</option>
+<option>Starosta</option>
+<option>Velitel</option>
+<option>Náměstek velitele</option>
+<option>Jednatel</option>
+<option>Hospodář</option>
+<option>Preventista</option>
+<option>Strojník</option>
+<option>Velitel družstva</option>
+</select>
+
+<button>Přidat člena</button>
+
+</div>
+
+</div>
 
 </body>
 </html>
