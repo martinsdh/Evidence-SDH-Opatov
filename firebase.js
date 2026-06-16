@@ -3,7 +3,7 @@ import { getAuth } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-aut
 import { getFirestore } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "TVŮJ_API_KEY",
+  apiKey: "AIzaSyDJf1nlJOqkK1SLfxu4836RhV4VURejFgE",
   authDomain: "evidence-sdh-opatov.firebaseapp.com",
   projectId: "evidence-sdh-opatov",
   storageBucket: "evidence-sdh-opatov.firebasestorage.app",
